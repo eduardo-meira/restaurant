@@ -1,0 +1,99 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #e15f41;
+}
+
+.container h1 {
+  font-family: "Pacifico", cursive;
+}
+#menu-navegacao,
+.nav-link {
+  color: white;
+}
+
+.navbar-brand{
+    color: white;
+    transition: 0,2 ease-in-out;
+}
+.navbar-brand:hover{
+    color:rgb(212, 212, 212);
+}
+
+#menu-navegacao .nav-link:hover {
+  color: rgb(212, 212, 212);
+}
+
+#menu-navegacao .nav .nav-link.active {
+  background-color: white;
+  color: #e15f41;
+}
+
+.nav-link.active:hover {
+  background-color: rgb(212, 212, 212);
+}
+.nav-item a {
+  font-size: 13px;
+}
+
+.imagem-carousel {
+  width: 90%;
+  height: 500px;
+  border-radius: 10px;
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 1023px) {
+  .imagem-carousel {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .imagem-carousel {
+    height: 300px;
+  }
+}
+
+#about-us {
+  background-color: #e15f41;
+}
+
+#cards-title {
+  color: #e15f41;
+}
+
+#occasions {
+  color: #e15f41;
+}
+#container-occasions, #contact-us{
+    background-color: beige;
+}
+.menu-title, .fs-2{
+    color: #e15f41;
+}
+
+#nav-menu button,#us, #label-contact{
+    color: #e15f41;
+}
+
+#nav-menu .nav-link.active, #contact-us button{
+    background-color: #e15f41;
+    color: white;
+}
+
+.social-media li{
+  list-style: none;
+  display: inline;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #e15f41;
+  font-size: 25px;
+  margin-right: 1vw;
+}
+
+

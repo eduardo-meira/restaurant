@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>modulo 14</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top" data-bs-smooth="true">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Restaurant</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+        <nav class="navbar-collapse collapse justify-content-end mt-sm-3" id="menu-navegacao">
+            <ul class="nav nav-pills d-block d-md-flex">
+                <li class="nav-item fw-bold">
+                    <a class="nav-link" href="#carousel">
+                        <i class="bi bi-house-door me-1"></i>
+                        About us</a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a class="nav-link" href="#container-occasions">
+                        <i class="bi bi-calendar-check me-1"></i>
+                        Events</a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a class="nav-link" href="#menu">
+                        <i class="bi bi-card-text me-1"></i>
+                        Our menu</a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a class="nav-link" href="#contact-us">
+                        <i class="bi bi-chat-left-text me-1"></i>
+                        Contact us</a>
+                </li>
+            </ul>
+        </nav>
+    </div>    
+    </header>
+    <section >
+        <div id="carousel" class="carousel slide mt-4 " data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="2000" class="carousel-item active ">
+                    <img class="imagem-carousel" src="./imagens/comida.jpg" alt="">
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img class="imagem-carousel" src="./imagens/mesas.jpg" alt="">
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img class="imagem-carousel" src="./imagens/pessoas.jpg" alt="">
+                </div>
+            </div>
+                <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div class="container pt-4 pb-1 mt-4 mb-5 rounded " id="about-us">
+            <div class="row">
+                <div class="col-md-5">
+                    <img class="w-100 rounded" src="./imagens/350z.jpg" alt="">
+                </div>
+                <div class="col-md-7">
+                    <div>
+                        <h1 class="mt-4" >About <span class="text-light">the Restaurant</span></h1>
+                        <span class="fs-5">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo alias unde quia eaque assumenda.
+                            Perspiciatis quaerat id harum inventore expedita tempora! Vel placeat nostrum assumenda, 
+                            saepe maiores iure soluta in.
+                        </span>
+                    </div>
+                <div>
+                    <h1 class="mt-4" >About <span class="text-light">the Space</span></h1>
+                    <span class="fs-5">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo alias unde quia eaque assumenda.
+                        Perspiciatis quaerat id harum inventore expedita tempora! Vel placeat nostrum assumenda, 
+                        saepe maiores iure soluta in.
+                    </span>
+                        <ul class="fs-4 mt-3">
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                        </ul>
+                </div>
+        </div>
+    </section>
+    <section class="mt-5 mb-5 w-100 p-4" id="container-occasions">
+        <div class="container">
+                <h1 class="text-center">For all <span id="occasions">occasions</span> </h1>
+            <div class="row mt-4">
+                <div class="col-md-4"> 
+                    <img class="w-100 rounded" src="./imagens/350z.jpg" alt="">
+                    <h1 class="align-content-center mt-3 mb-3" id="cards-title">birthdays</h1>
+                    <span class="fs-5">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo alias unde quia eaque assumenda.
+                        Perspiciatis quaerat id harum inventore expedita tempora! Vel placeat nostrum assumenda, 
+                        saepe maiores iure soluta in.
+                    </span>
+                </div>
+                <div class="col-md-4"> 
+                    <img class="w-100 rounded" src="./imagens/350z.jpg" alt="">
+                    <h1 class="align-content-center mt-3 mb-3" id="cards-title" >wedding reception</h1>
+                    <span class="fs-5">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo alias unde quia eaque assumenda.
+                        Perspiciatis quaerat id harum inventore expedita tempora! Vel placeat nostrum assumenda, 
+                        saepe maiores iure soluta in.
+                    </span>
+                </div>
+                <div class="col-md-4"> 
+                    <img class="w-100 rounded" src="./imagens/350z.jpg" alt="">
+                    <h1 class="align-content-center mt-3 mb-3" id="cards-title" >frat ernization</h1>
+                    <span class="fs-5">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo alias unde quia eaque assumenda.
+                        Perspiciatis quaerat id harum inventore expedita tempora! Vel placeat nostrum assumenda, 
+                        saepe maiores iure soluta in.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="row">
+                <h1 class="section-tile text-center mb-3">Our <span class="menu-title" >menu</span></h1>
+            </div>
+
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column mb-4" id="nav-menu">                                
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#alcoholic" class="nav-link text-start fw-bold fs-5 active">alcoholic drinks</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#non-alcohol" class="nav-link text-start fw-bold fs-5">non-alcoholic drink</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#starters" class="nav-link text-start fw-bold fs-5">starters</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#main-courses" class="nav-link text-start fw-bold fs-5">main courses</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#desserts" class="nav-link text-start fw-bold fs-5">desserts</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10 pb-5">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="alcoholic">
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                    <img class="d-block w-100 h-75" id="alcohol-drinks" src="./imagens/bebidas-alcoólcisa/chopp.jpg" alt="">
+                                    <h1 class="align-content-center mt-3 mb-3" >example</h1>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                    <img class="d-block w-100 h-75" id="alcohol-drinks" src="./imagens/bebidas-alcoólcisa/chopp.jpg"alt="">
+                                    <h1 class="align-content-center mt-3 mb-3">example</h1>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                    <img class="d-block w-100 h-75" id="alcohol-drinks" src="./imagens/bebidas-alcoólcisa/chopp.jpg" alt="">
+                                    <h1 class="align-content-center mt-3 mb-3">example</h1>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                    <img class="d-block w-100 h-75" id="alcohol-drinks" src="./imagens/bebidas-alcoólcisa/chopp.jpg" alt="">
+                                    <h1 class="align-content-center mt-3 mb-3">example</h1>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                    <img class="d-block w-100 h-75" id="alcohol-drinks" src="./imagens/bebidas-alcoólcisa/chopp.jpg"alt="">
+                                    <h1 class="align-content-center mt-3 mb-3">example</h1>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="non-alcohol">
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                    <img class="d-block w-100 h-75" id="coquinha" src="./imagens/coquinha/coca.png" alt="">
+                                    <h1 class="align-content-center mt-3 mb-3" >example</h1>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                    <img class="d-block w-100 h-75" id="coquinha" src="./imagens/coquinha/coca.png"alt="">
+                                    <h1 class="align-content-center mt-3 mb-3">example</h1>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="starters">
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mt-3">
+                                    <img class="d-block w-100 h-75" id="starters" src="./imagens/comida-boa/Ruela-Parmegiana.jpg" alt="">
+                                    <h1 class="align-content-center mt-3 mb-3" >example</h1>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mt-3">
+                                    <img class="d-block w-100 h-75" id="starters" src="./imagens/comida-boa/Ruela-Parmegiana.jpg"alt="">
+                                    <h1 class="align-content-center mt-3 mb-3">example</h1>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mt-3">
+                                    <img class="d-block w-100 h-75" id="starters" src="./imagens/comida-boa/Ruela-Parmegiana.jpg"alt="">
+                                    <h1 class="align-content-center mt-3 mb-3">example</h1>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mt-3">
+                                    <img class="d-block w-100 h-75" id="starters" src="./imagens/comida-boa/Ruela-Parmegiana.jpg"alt="">
+                                    <h1 class="align-content-center mt-3 mb-3">example</h1>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="main-courses">
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                    <img class="d-block w-100 h-75" id="main" src="./imagens/carne/images.jpeg" alt="">
+                                    <h1 class="align-content-center mt-3 mb-3" >example</h1>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                    <img class="d-block w-100 h-75" id="main" src="./imagens/carne/images.jpeg"alt="">
+                                    <h1 class="align-content-center mt-3 mb-3">example</h1>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                </div>
+
+                        </div>
+                        <div class="tab-pane" id="desserts">
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                    <img class="d-block w-100 h-75" id="desserts-img" src="./imagens/desserts/dessert.-gallery-1" alt="">
+                                    <h1 class="align-content-center mt-3 mb-3" >example</h1>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                    <img class="d-block w-100 h-75" id="desserts-img" src="./imagens/desserts/dessert.-gallery-1"alt="">
+                                    <h1 class="align-content-center mt-3 mb-3">example</h1>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact-us">
+        <div class="container">
+            <div class="row">
+                <h1 class="section-title text-center" >Contact <span id="us" >us</span></h1>
+            </div>
+            <div class="row ">
+                <div class="col-md-7">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label fw-bold" id="label-contact">Your name:</label>
+                            <input id="name" type="text" class="form-control" required placeholder="Your name:">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold" id="label-contact">Your email:</label>
+                            <input id="email" type="text" class="form-control" required placeholder="Email@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="tel" class="form-label fw-bold" id="label-contact">Your telephone:(opcional)</label>
+                            <input id="tel" type="text" class="form-control" required >
+                        </div>
+                        <div class="mb-3">
+                            <label for="text" class="form-label fw-bold" id="label-contact">Your message:</label>
+                            <textarea  class="form-control " id="message" required placeholder="Add message or sugestion"></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold mb-4">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <div>
+                            <h1 class="fs-2">
+                                <i class="bi bi-hand-thumbs-up-fill" ></i>
+                                Social media</h1>
+                            <ul class="social-media" >
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-facebook" ></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-instagram" ></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp" ></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mt-4">
+                            <h1 class="fs-2">
+                                <i class="bi bi-cursor-fill" ></i>
+                                Address</h1>
+                            <p class="fs-3" >Street example, number:000, bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>    <script src="./js/jquery.mask.min.js"></script>
+<script src="./js/jquery.validate.min.js"></script>
+<script src="./js/messages_pt_BR.min.js"></script>
+<script src="./js/main.js"></script>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
