@@ -2,38 +2,48 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-header {
-  background-color: #e15f41;
-}
-
 .container h1 {
   font-family: "Pacifico", cursive;
 }
+
+header,
+#about-us,
+#nav-menu .nav-link.active,
+#contact-us button {
+  background-color: #e15f41;
+}
+
 #menu-navegacao,
-.nav-link {
+.nav-link,
+#nav-menu .nav-link.active,
+#contact-us button {
   color: white;
 }
 
-.navbar-brand{
-    color: white;
-    transition: 0,2 ease-in-out;
-}
-.navbar-brand:hover{
-    color:rgb(212, 212, 212);
-}
-
-#menu-navegacao .nav-link:hover {
-  color: rgb(212, 212, 212);
-}
-
-#menu-navegacao .nav .nav-link.active {
-  background-color: white;
+#cards-title,
+.menu-title,
+.fs-2,
+#nav-menu button,
+#us,
+#label-contact,
+#occasions  {
   color: #e15f41;
 }
 
-.nav-link.active:hover {
-  background-color: rgb(212, 212, 212);
+.navbar-brand {
+  transition: 0, 2 ease-in-out;
 }
+.navbar-brand:hover,
+#menu-navegacao .nav-link:hover,
+.nav-link.active:hover {
+  color: rgb(212, 212, 212);
+}
+
+#container-occasions,
+#contact-us {
+  background-color: beige;
+}
+
 .nav-item a {
   font-size: 13px;
 }
@@ -57,34 +67,11 @@ header {
   }
 }
 
-#about-us {
-  background-color: #e15f41;
+.tab-content img{
+  border-radius: 10px;
 }
 
-#cards-title {
-  color: #e15f41;
-}
-
-#occasions {
-  color: #e15f41;
-}
-#container-occasions, #contact-us{
-    background-color: beige;
-}
-.menu-title, .fs-2{
-    color: #e15f41;
-}
-
-#nav-menu button,#us, #label-contact{
-    color: #e15f41;
-}
-
-#nav-menu .nav-link.active, #contact-us button{
-    background-color: #e15f41;
-    color: white;
-}
-
-.social-media li{
+.social-media li {
   list-style: none;
   display: inline;
 }
@@ -95,5 +82,3 @@ header {
   font-size: 25px;
   margin-right: 1vw;
 }
-
-
